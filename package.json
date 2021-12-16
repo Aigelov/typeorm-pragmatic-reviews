@@ -1,0 +1,27 @@
+{
+   "name": "new-typeorm-project",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "pg": "^8.4.0",
+      "prettier": "^2.5.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.41"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "startPenBook": "ts-node src/index-pen-book.ts",
+      "startAudit": "ts-node src/index-audit.ts",
+      "startPatterns": "ts-node src/index-patterns.ts",
+      "startLazy": "ts-node src/index-lazy.ts",
+      "startEntityListeners": "ts-node src/index-entity-listeners.ts",
+      "startEventSubscriber": "ts-node src/index-event-subscriber.ts",
+      "startQueryBuilder": "ts-node src/index-query-builder.ts",
+      "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js"
+   }
+}
